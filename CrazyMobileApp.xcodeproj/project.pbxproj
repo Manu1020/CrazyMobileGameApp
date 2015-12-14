@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952547E31C1E7D0C008CEA6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 952547E21C1E7D0C008CEA6A /* main.m */; };
+		952547E61C1E7D0C008CEA6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 952547E51C1E7D0C008CEA6A /* AppDelegate.m */; };
+		952547E91C1E7D0C008CEA6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952547E81C1E7D0C008CEA6A /* ViewController.m */; };
+		952547EC1C1E7D0C008CEA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952547EA1C1E7D0C008CEA6A /* Main.storyboard */; };
+		952547EE1C1E7D0C008CEA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952547ED1C1E7D0C008CEA6A /* Assets.xcassets */; };
+		952547F11C1E7D0C008CEA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952547EF1C1E7D0C008CEA6A /* LaunchScreen.storyboard */; };
+		952547FC1C1E7D0C008CEA6A /* CrazyMobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952547FB1C1E7D0C008CEA6A /* CrazyMobileAppTests.m */; };
+		952548071C1E7D0C008CEA6A /* CrazyMobileAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952548061C1E7D0C008CEA6A /* CrazyMobileAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		952547F81C1E7D0C008CEA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952547D61C1E7D0C008CEA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952547DD1C1E7D0C008CEA6A;
+			remoteInfo = CrazyMobileApp;
+		};
+		952548031C1E7D0C008CEA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 952547D61C1E7D0C008CEA6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952547DD1C1E7D0C008CEA6A;
+			remoteInfo = CrazyMobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952547DE1C1E7D0C008CEA6A /* CrazyMobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyMobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		952547E21C1E7D0C008CEA6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		952547E41C1E7D0C008CEA6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		952547E51C1E7D0C008CEA6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		952547E71C1E7D0C008CEA6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		952547E81C1E7D0C008CEA6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		952547EB1C1E7D0C008CEA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		952547ED1C1E7D0C008CEA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		952547F01C1E7D0C008CEA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		952547F21C1E7D0C008CEA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952547F71C1E7D0C008CEA6A /* CrazyMobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyMobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952547FB1C1E7D0C008CEA6A /* CrazyMobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyMobileAppTests.m; sourceTree = "<group>"; };
+		952547FD1C1E7D0C008CEA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952548021C1E7D0C008CEA6A /* CrazyMobileAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyMobileAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		952548061C1E7D0C008CEA6A /* CrazyMobileAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyMobileAppUITests.m; sourceTree = "<group>"; };
+		952548081C1E7D0C008CEA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952547DB1C1E7D0C008CEA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952547F41C1E7D0C008CEA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952547FF1C1E7D0C008CEA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952547D51C1E7D0C008CEA6A = {
+			isa = PBXGroup;
+			children = (
+				952547E01C1E7D0C008CEA6A /* CrazyMobileApp */,
+				952547FA1C1E7D0C008CEA6A /* CrazyMobileAppTests */,
+				952548051C1E7D0C008CEA6A /* CrazyMobileAppUITests */,
+				952547DF1C1E7D0C008CEA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952547DF1C1E7D0C008CEA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952547DE1C1E7D0C008CEA6A /* CrazyMobileApp.app */,
+				952547F71C1E7D0C008CEA6A /* CrazyMobileAppTests.xctest */,
+				952548021C1E7D0C008CEA6A /* CrazyMobileAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952547E01C1E7D0C008CEA6A /* CrazyMobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				952547E41C1E7D0C008CEA6A /* AppDelegate.h */,
+				952547E51C1E7D0C008CEA6A /* AppDelegate.m */,
+				952547E71C1E7D0C008CEA6A /* ViewController.h */,
+				952547E81C1E7D0C008CEA6A /* ViewController.m */,
+				952547EA1C1E7D0C008CEA6A /* Main.storyboard */,
+				952547ED1C1E7D0C008CEA6A /* Assets.xcassets */,
+				952547EF1C1E7D0C008CEA6A /* LaunchScreen.storyboard */,
+				952547F21C1E7D0C008CEA6A /* Info.plist */,
+				952547E11C1E7D0C008CEA6A /* Supporting Files */,
+			);
+			path = CrazyMobileApp;
+			sourceTree = "<group>";
+		};
+		952547E11C1E7D0C008CEA6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				952547E21C1E7D0C008CEA6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		952547FA1C1E7D0C008CEA6A /* CrazyMobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				952547FB1C1E7D0C008CEA6A /* CrazyMobileAppTests.m */,
+				952547FD1C1E7D0C008CEA6A /* Info.plist */,
+			);
+			path = CrazyMobileAppTests;
+			sourceTree = "<group>";
+		};
+		952548051C1E7D0C008CEA6A /* CrazyMobileAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				952548061C1E7D0C008CEA6A /* CrazyMobileAppUITests.m */,
+				952548081C1E7D0C008CEA6A /* Info.plist */,
+			);
+			path = CrazyMobileAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952547DD1C1E7D0C008CEA6A /* CrazyMobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9525480B1C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileApp" */;
+			buildPhases = (
+				952547DA1C1E7D0C008CEA6A /* Sources */,
+				952547DB1C1E7D0C008CEA6A /* Frameworks */,
+				952547DC1C1E7D0C008CEA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyMobileApp;
+			productName = CrazyMobileApp;
+			productReference = 952547DE1C1E7D0C008CEA6A /* CrazyMobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		952547F61C1E7D0C008CEA6A /* CrazyMobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9525480E1C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileAppTests" */;
+			buildPhases = (
+				952547F31C1E7D0C008CEA6A /* Sources */,
+				952547F41C1E7D0C008CEA6A /* Frameworks */,
+				952547F51C1E7D0C008CEA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952547F91C1E7D0C008CEA6A /* PBXTargetDependency */,
+			);
+			name = CrazyMobileAppTests;
+			productName = CrazyMobileAppTests;
+			productReference = 952547F71C1E7D0C008CEA6A /* CrazyMobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		952548011C1E7D0C008CEA6A /* CrazyMobileAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952548111C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileAppUITests" */;
+			buildPhases = (
+				952547FE1C1E7D0C008CEA6A /* Sources */,
+				952547FF1C1E7D0C008CEA6A /* Frameworks */,
+				952548001C1E7D0C008CEA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952548041C1E7D0C008CEA6A /* PBXTargetDependency */,
+			);
+			name = CrazyMobileAppUITests;
+			productName = CrazyMobileAppUITests;
+			productReference = 952548021C1E7D0C008CEA6A /* CrazyMobileAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952547D61C1E7D0C008CEA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ｋｏｄｕｒｉ　ＭａｎａｓａＰｒｉｙａ";
+				TargetAttributes = {
+					952547DD1C1E7D0C008CEA6A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					952547F61C1E7D0C008CEA6A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 952547DD1C1E7D0C008CEA6A;
+					};
+					952548011C1E7D0C008CEA6A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 952547DD1C1E7D0C008CEA6A;
+					};
+				};
+			};
+			buildConfigurationList = 952547D91C1E7D0C008CEA6A /* Build configuration list for PBXProject "CrazyMobileApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952547D51C1E7D0C008CEA6A;
+			productRefGroup = 952547DF1C1E7D0C008CEA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952547DD1C1E7D0C008CEA6A /* CrazyMobileApp */,
+				952547F61C1E7D0C008CEA6A /* CrazyMobileAppTests */,
+				952548011C1E7D0C008CEA6A /* CrazyMobileAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952547DC1C1E7D0C008CEA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952547F11C1E7D0C008CEA6A /* LaunchScreen.storyboard in Resources */,
+				952547EE1C1E7D0C008CEA6A /* Assets.xcassets in Resources */,
+				952547EC1C1E7D0C008CEA6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952547F51C1E7D0C008CEA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952548001C1E7D0C008CEA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952547DA1C1E7D0C008CEA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952547E91C1E7D0C008CEA6A /* ViewController.m in Sources */,
+				952547E61C1E7D0C008CEA6A /* AppDelegate.m in Sources */,
+				952547E31C1E7D0C008CEA6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952547F31C1E7D0C008CEA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952547FC1C1E7D0C008CEA6A /* CrazyMobileAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952547FE1C1E7D0C008CEA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952548071C1E7D0C008CEA6A /* CrazyMobileAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952547F91C1E7D0C008CEA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952547DD1C1E7D0C008CEA6A /* CrazyMobileApp */;
+			targetProxy = 952547F81C1E7D0C008CEA6A /* PBXContainerItemProxy */;
+		};
+		952548041C1E7D0C008CEA6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952547DD1C1E7D0C008CEA6A /* CrazyMobileApp */;
+			targetProxy = 952548031C1E7D0C008CEA6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		952547EA1C1E7D0C008CEA6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952547EB1C1E7D0C008CEA6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		952547EF1C1E7D0C008CEA6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				952547F01C1E7D0C008CEA6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952548091C1E7D0C008CEA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9525480A1C1E7D0C008CEA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9525480C1C1E7D0C008CEA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9525480D1C1E7D0C008CEA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyMobileApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9525480F1C1E7D0C008CEA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrazyMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyMobileApp.app/CrazyMobileApp";
+			};
+			name = Debug;
+		};
+		952548101C1E7D0C008CEA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrazyMobileAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyMobileApp.app/CrazyMobileApp";
+			};
+			name = Release;
+		};
+		952548121C1E7D0C008CEA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrazyMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrazyMobileApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		952548131C1E7D0C008CEA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CrazyMobileAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HackForFun.CrazyMobileAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CrazyMobileApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952547D91C1E7D0C008CEA6A /* Build configuration list for PBXProject "CrazyMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952548091C1E7D0C008CEA6A /* Debug */,
+				9525480A1C1E7D0C008CEA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9525480B1C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9525480C1C1E7D0C008CEA6A /* Debug */,
+				9525480D1C1E7D0C008CEA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9525480E1C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9525480F1C1E7D0C008CEA6A /* Debug */,
+				952548101C1E7D0C008CEA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		952548111C1E7D0C008CEA6A /* Build configuration list for PBXNativeTarget "CrazyMobileAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952548121C1E7D0C008CEA6A /* Debug */,
+				952548131C1E7D0C008CEA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952547D61C1E7D0C008CEA6A /* Project object */;
+}
